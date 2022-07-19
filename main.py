@@ -1,10 +1,15 @@
+import platform
 from os import system
+from re import S
 from pessoa import Pessoa
 from paises import Moedas
 from conversor import ConversorMoedas
 
 def clear():
-    system('cls')
+    if platform.system() == 'Windows':
+        system('cls')
+    else: 
+        system('clear')
 
 clear()
 
