@@ -1,6 +1,5 @@
 import platform
 from os import system
-from re import S
 from pessoa import Pessoa
 from paises import Moedas
 from conversor import ConversorMoedas
